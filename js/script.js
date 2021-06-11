@@ -69,6 +69,7 @@ readTextFile("data/products.json", function(text) {
         img.src = data[i]['image'];
         price.innerHTML = "₱" + data[i]['price'];
         addBtn.innerHTML = "Add to cart";
+        addBtn.style.width = "100%";
 
         let product = data[i];
         addBtn.onclick = function() {
