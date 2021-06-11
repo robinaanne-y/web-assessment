@@ -1,0 +1,73 @@
+{
+    "product": [{
+        "id": 1,
+        "name": "Freddo Delicato Le",
+        "description": "For mild and sweet recipes with ice",
+        "price": "40.00",
+        "image": "images/freddo_delicato_le.jpg"
+
+    },
+    {
+        "id": 2,
+        "name": "Nicaragua",
+        "description": "",
+        "price": "38.00",
+        "image": "images/master_origin_nicaragua.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Envivo Lungo",
+        "description": "",
+        "price": "34.00",
+        "image": "images/envivo_lungo.png"
+    },
+    {
+        "id": 4,
+        "name": "Fortisso Lungo",
+        "description": "",
+        "price": "38.00",
+        "image": "images/fortisso_lungo.png"
+    },
+    {
+        "id": 5,
+        "name": "Volluto",
+        "description": "",
+        "price": "32.00",
+        "image": "images/volluto.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Cosi",
+        "description": "",
+        "price": "32.00",
+        "image": "images/cosi.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Capriccio",
+        "description": "",
+        "price": "32.00",
+        "image": "images/capriccio.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Ispirazione Roma",
+        "description": "",
+        "price": "32.00",
+        "image": "images/ispirazione_roma.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Cocoa Truffle",
+        "description": "",
+        "price": "32.00",
+        "image": "images/cocoa_truffle.png"
+    },
+    {
+        "id": 10,
+        "name": "Vanilla Eclair",
+        "description": "",
+        "price": "32.00",
+        "image": "images/vanilla_eclair.png"
+    }]
+}

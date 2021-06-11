@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Book Stack</title>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="nav" id="nav">
+            <a  class="active text-light" href="index.html">Home</a>
+            <a class="text-light" href="#coffee">Coffee</a>
+            <a href="javascript:void(0);" class="icon" onclick="navResponse()">
+                <svg width="14" height="14" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg"><path d="M 200 713C 200 713 800 713 800 713C 814 712 826 719 833 731C 840 743 840 757 833 769C 826 781 814 788 800 788C 800 788 200 788 200 788C 186 788 174 781 167 769C 160 757 160 743 167 731C 174 719 186 712 200 713C 200 713 200 713 200 713M 200 462C 200 462 800 462 800 462C 814 462 826 469 833 481C 840 493 840 507 833 519C 826 531 814 538 800 538C 800 538 200 538 200 538C 186 538 174 531 167 519C 160 507 160 493 167 481C 174 469 186 462 200 462C 200 462 200 462 200 462M 200 213C 200 213 800 213 800 213C 814 212 826 219 833 231C 840 243 840 257 833 269C 826 281 814 288 800 287C 800 287 200 287 200 287C 186 288 174 281 167 269C 160 257 160 243 167 231C 174 219 186 212 200 213C 200 213 200 213 200 213"/></svg>
+            </a>
+        </div>
+    
+        <div class="carousel__container">
+            <div class="carousel__slide fade">    
+                <img src="images/coffee_1.jpg" style="width:100%">
+            </div>
+            <div class="carousel__slide fade">    
+                <img src="images/coffee_3.jpg" style="width:100%">
+            </div>
+            <div class="carousel__slide fade">    
+                <img src="images/coffee_2.jpg" style="width:100%">
+            </div>
+    
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    
+        <br>
+
+        <div class="text-center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+    </div>
+   
+    <div class="product__container" id="products">
+        <!-- <div class="row text-center">
+            <div class="col-2">
+                <div class="px-3">
+                    <img src="images/freddo_delicato_le.jpg" alt="Freddo Delicato Le">
+                </div>
+                <p id="product1"></p>
+            </div>
+            <div class="col-2">
+                <img src="images/freddo_delicato_le.jpg" alt="Freddo Delicato Le">
+            </div>
+            <div class="col-2">
+                <img src="images/freddo_delicato_le.jpg" alt="Freddo Delicato Le">
+            </div>
+            <div class="col-2">
+                <img src="images/freddo_delicato_le.jpg" alt="Freddo Delicato Le">
+            </div>
+        </div> -->
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
