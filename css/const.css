@@ -22,6 +22,7 @@
     padding: 10px;
     border: 1px #ac652b;
     border-radius: 5px;
+    display: block;
 }
 
 .btn-primary { background-color: #b1682e }
@@ -46,9 +47,11 @@
 [class*="col-"] {
     width: 100%;
 }
+
 .product__container img {
     width: 50%
 }
+
 @media only screen and (min-width: 768px) {
     .product__container .row .col-2 img {
         width: 90%
